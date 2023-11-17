@@ -1,0 +1,200 @@
+body{
+  padding: 1px 8em 0 8em;
+  padding-top: 0px;
+}
+
+.logo{
+  font-size: 100px;
+}
+
+
+
+h1{
+    font-family: URW Chancery L, cursive;
+    position: relative;
+    top:100px;
+    color: aliceblue;
+    font-size: 100px;
+}
+
+.mill{
+    font-family: FreeMono, monospace;
+    position: relative;
+    top:70px;
+    font-size: 50px;
+    color: aliceblue;
+}
+
+
+.photosintez{
+    font-family: FreeMono, monospace;
+    color: aliceblue;
+    font-size: 30px;
+
+}
+
+.problem{
+    font-family: FreeMono, monospace;
+    color: aliceblue;
+    font-size: 30px;
+}
+
+.companies{
+    color: aliceblue;
+    font-size: 30px;
+}
+
+.save_les{
+    color: aliceblue;
+    font-size: 30px;
+    position: relative;
+    left: 50px;
+}
+
+.phi {
+    position: relative;
+    border-radius: 4px;
+    background-color: #218518;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 300px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    bottom: -49px;
+  }
+  
+  .phi span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .phi span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 1s;
+  }
+  
+  .phi:hover span {
+    padding-right: 25px;
+  }
+  
+  .phi:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  
+  .write{
+    position: relative;
+    font-size: 30px;
+    bottom: -60px;
+  }
+
+ .write_message{
+    bottom: -50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: azure;
+    font-size: 45px;
+    position: relative;
+
+    
+  }
+
+  .les2{
+    position: relative;
+    left: -300px;
+    size: 400px;
+  }
+
+  .o_nas{
+      position:relative;
+      top: 20px;
+      right: -100px;
+      padding: 10px;
+      padding-right: 30px;
+      padding-left: 30px;
+      font-size: 30px;
+      cursor: pointer;
+      border: none;
+      border-radius: 10px;
+      text-decoration: none;
+      color: white;
+      background: #0bf675;
+  }
+  
+  .o_nas:hover {
+      background: #00c58a;
+      position: relative;
+    
+  }
+
+  .otcheti{
+      position: relative;
+      top: 20px;
+      padding: 10px;
+      padding-right: 30px;
+      padding-left: 30px;
+      right: -200px;
+      font-size: 30px;
+      cursor: pointer;
+      border: none;
+      border-radius: 10px;
+      text-decoration: none;
+      color: white;
+      background: #0bf675;
+  }
+  
+  .otcheti:hover {
+      background: #00c58a;
+      position: relative;
+  }
+
+  .akcii{
+    position: relative;
+    top: 20px;
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    right: -300px;
+    font-size: 30px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    background: #0bf675;
+}
+
+.akcii:hover {
+    background: #00c58a;
+    position: relative;
+  }
+
+  .reg{
+    position: relative;
+    top: 20px;
+    padding: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    right: -400px;
+    font-size: 30px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    background: #0bf675;
+}
+
+.reg:hover {
+    background: #00c58a;
+    position: relative;
+  }
